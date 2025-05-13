@@ -56,12 +56,12 @@ Observação: É necessário solicitar a SEED via Oficio, com as informações d
 Abra o arquivo Python principal (`relatorio_gui.py` ou outro nome que tenha salvo) e edite estas duas linhas no início do código:
 
 ```python
-API_URL = "[https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1](https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1)"
+API_URL = "https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1"
 API_TOKEN = "seu_token_aqui"
 ```
 
 **Substitua**:
-- `[https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1](https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1)` pela URL da API atualizada caso necessário.
+- `https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1` pela URL da API atualizada caso necessário.
 - `"seu_token_aqui"` pelo seu token pessoal de autenticação.
 
 ---
