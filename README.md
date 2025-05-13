@@ -52,15 +52,16 @@ pip install requests openpyxl pandas tkinter tempfile json
 
 ## ⚙️ Configuração do Script
 
+Observação: É necessário solicitar a SEED via Oficio, com as informações do usuário que irá utilizar e ser responsável pelo uso e captura dos dados pela chave de API, assim como o IP publico usado por ele para se conectar a SEED (API). Após solicitado será recebido da SEED o link da API e o token de acesso. Também será liberado o acesso a API pelo IP informado. Caso contrário não será possível utilizar a API.
 Abra o arquivo Python principal (`relatorio_gui.py` ou outro nome que tenha salvo) e edite estas duas linhas no início do código:
 
 ```python
-API_URL = "https://sua.api.com.br/endpoint"
+API_URL = "[https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1](https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1)"
 API_TOKEN = "seu_token_aqui"
 ```
 
 **Substitua**:
-- `https://sua.api.com.br/endpoint` pela URL da API.
+- `[https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1](https://www.sere.pr.gov.br/sere/service/alunos/buscaPost/busca_exporta_dados_escola_json_castro/1)` pela URL da API atualizada caso necessário.
 - `"seu_token_aqui"` pelo seu token pessoal de autenticação.
 
 ---
