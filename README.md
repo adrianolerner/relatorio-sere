@@ -123,8 +123,8 @@ projeto-relatorio/
 
 ## ✍️ Autor
 
-**Seu Nome Aqui**  
-Desenvolvido para automação de geração de relatórios a partir de APIs REST.  
+**Adriano Lerner Biesek**  
+Desenvolvido para automação de geração de relatórios do SERE a partir da API REST.  
 
 ---
 
